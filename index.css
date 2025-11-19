@@ -1,0 +1,68 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#middle{
+    height: 80%;
+    width: 80%;
+    background-color: bisque;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 15px;
+    overflow: hidden;
+}
+#top{
+    height: 15%;
+    width: 100%;
+    padding: 0% 15%;
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.scorebox{
+    background-color: aliceblue;
+    height: 30px;
+    width: 100%;
+    font-size: 30px;
+    font-family: monospace;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+.bubble{
+    background-color: black;
+    color: aliceblue;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#bottom{
+    padding: 20px;
+    width: 100%;
+    height: clac(100% - 100px);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
