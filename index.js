@@ -1,6 +1,6 @@
 function bubble(){
     let bubble = "";
-    for (let i = 1;i <= 10;i++ ){
+    for (let i = 1;i <= 130;i++ ){
         bubble += `<a href=""><div class="bubble">${Math.floor(Math.random()*10)}</div></a>`;
     }
     document.querySelector("#bottom").innerHTML = bubble;
@@ -36,3 +36,4 @@ function call(){
 }
 
 call()
+
